@@ -30,3 +30,7 @@ coverage/
 storylens-backend/.vs/
 .vs/
 storylens-backend/.vs/
+**/.vs/
+storylens-backend/.vs/
+*.sqlite
+*.wsuo
