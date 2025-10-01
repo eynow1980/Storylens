@@ -1,0 +1,25 @@
+{
+  "name": "storylens-extension",
+  "displayName": "StoryLens",
+  "version": "0.1.0",
+  "description": "StoryLens editor helper",
+  "private": true,
+  "scripts": { "dev": "plasmo dev", "build": "plasmo build", "package": "plasmo package" },
+  "dependencies": { "plasmo": "0.90.5", "react": "18.2.0", "react-dom": "18.2.0" },
+  "devDependencies": { "@plasmo/types": "0.90.5", "typescript": "5.1.6" },
+  "plasmo": { "manifest": "src/manifest.ts" },
+  "manifest": {
+    "permissions": ["storage", "activeTab", "scripting", "identity"],
+    "host_permissions": [
+      "https://docs.google.com/*",
+      "https://www.googleapis.com/*"
+    ],
+    "oauth2": {
+      "client_id": "1080423724315-mujeaeq5p6t0a2uptok447lbbmcm37pl.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/documents.readonly",
+        "https://www.googleapis.com/auth/drive.readonly"
+      ]
+    }
+  }
+}
