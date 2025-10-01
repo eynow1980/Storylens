@@ -34,3 +34,7 @@ storylens-backend/.vs/
 storylens-backend/.vs/
 *.sqlite
 *.wsuo
+**/.vs/
+storylens-backend/.vs/
+*.sqlite
+*.wsuo
