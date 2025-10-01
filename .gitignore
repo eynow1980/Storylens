@@ -1,0 +1,27 @@
+# node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# env / secrets
+.env
+.env.local
+
+# build output
+dist/
+build/
+.out/
+parcel-cache/
+.cache/
+
+# chrome extension artifacts
+*.pem
+
+# misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
